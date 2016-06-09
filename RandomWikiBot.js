@@ -64,6 +64,6 @@ function RandomWiki() {
 			else {
 		    	console.error("An error occurred while fetching data from: '" + url + "'\nResponse: '" + response.statusCode  + "'\n"  + error);
 		    }
-		}
+		})
 	}
-)}
+}
